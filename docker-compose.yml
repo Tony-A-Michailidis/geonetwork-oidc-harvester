@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  geonetwork:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+    environment:
+      - JAVA_OPTS=-Xms512m -Xmx1024m
