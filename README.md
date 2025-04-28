@@ -1,6 +1,6 @@
 # GeoNetwork OIDC Harvester
 
-This project extends GeoNetwork with a custom harvester that authenticates using OpenID Connect (OIDC).
+This  project extends GeoNetwork with a custom harvester that authenticates using OpenID Connect (OIDC).
 
 ## 🐳 Docker Setup
 
